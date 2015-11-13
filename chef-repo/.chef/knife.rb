@@ -11,3 +11,5 @@ chef_server_url          "https://chefserver-2q1kz027.cloudapp.net/organizations
 cookbook_path            ["#{current_dir}/../cookbooks"]
 
 ssl_verify_mode :verify_none
+
+knife[:azure_publish_settings_file] = "C:\\Users\\kaorun55\\Downloads\\myazure.publishsettings"
